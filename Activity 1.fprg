@@ -1,0 +1,4 @@
+Function Main
+    ... This program displays "Hello name!"
+    Output "Hello name!"
+End

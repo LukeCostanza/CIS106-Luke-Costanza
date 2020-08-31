@@ -1,4 +1,0 @@
-Function Main
-    ... This program displays "Hello luke!"
-    Output "Hello luke!"
-End

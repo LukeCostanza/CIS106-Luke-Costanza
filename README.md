@@ -6,4 +6,4 @@ For the Fall semester I am taking this course simply because it is a requirment 
 
 ## Assignment 2
 
-During this second half of the first week, I decided on using Python for my coding language. My main reason is for its future use to me in my career path, But I have now learned that it is the simplest language to pick up which is a plus for me. I will be using Python and an instruction writer for future data types and statements in the GIS programs like ArcGIS. The IDE I used to test my activity 1.py code was Thonny and I intend on using it for the remainder of the course. 
+During this second week, I decided on using Python for my coding language. My main reason is for its future use to me in my career path, But I have now learned that it is the simplest language to pick up which is a plus for me too. I will be using Python as an instruction writer for future data types and statements in the GIS programs like ArcGIS. The IDE I used to test my activity 1.py code was Thonny and I intend on using it for the remainder of the course. 

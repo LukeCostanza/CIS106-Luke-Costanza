@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Owner"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-09-04 01:31:43 PM"/>
+        <attribute name="created" value="T3duZXI7REVTS1RPUC1TR0o1UFZQOzIwMjAtMDgtMzA7MDI6MTg6MDAgUE07MjkwMw=="/>
+        <attribute name="edited" value="T3duZXI7REVTS1RPUC1TR0o1UFZQOzIwMjAtMDktMDQ7MDE6MzE6NDMgUE07ODszMDIx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="This program demonstrates arithmetic operations."/>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <declare name="y" type="Integer" array="False" size=""/>
+            <assign variable="x" expression="10"/>
+            <assign variable="y" expression="27"/>
+            <output expression="&quot;x=&quot; &amp; x" newline="True"/>
+            <output expression="&quot;y=&quot; &amp; y" newline="True"/>
+            <output expression="&quot;x+y=&quot; &amp; x+y" newline="True"/>
+            <output expression="&quot;x-y=&quot; &amp; x-y" newline="True"/>
+            <output expression="&quot;x*y=&quot; &amp; x*y" newline="True"/>
+            <output expression="&quot;x/y=&quot; &amp; x/y" newline="True"/>
+            <output expression="&quot;x%y=&quot; &amp; x%y" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

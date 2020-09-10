@@ -7,3 +7,7 @@ For the Fall semester I am taking this course simply because it is a requirment 
 ## Assignment 2
 
 During this second week, I decided on using Python for my coding language. My main reason is for its future use to me in my career path, But I have now learned that it is the simplest language to pick up which is a plus for me too. I will be using Python as an instruction writer for future data types and statements in the GIS programs like ArcGIS. The IDE I used to test my activity 1.py code was Thonny and I intend on using it for the remainder of the course. 
+
+## Assignment 3
+
+I learned Lots from this weeks assignment. From figuring out that Python is case sensative to learning that objects dont always need a function written befor them while writing a string (str). The biggest lesson I learned was to watch out for parenthesis in each line of code. the prupose for each pair of parenthesis is to contain a statement/ function for the computer to read seperate of the other pairs of parenthsis. Also very simple yet very important, any function that has an equal sign after it will be read by the coimpyter as a variable and not a function even though it will still show its specific color code. These new lessons will be able to ask questions through my code and be able to answer a variety of questions given by the user. 

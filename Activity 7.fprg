@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Owner"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-09-21 09:00:27 PM"/>
+        <attribute name="created" value="T3duZXI7REVTS1RPUC1TR0o1UFZQOzIwMjAtMDktMTA7MDM6NDQ6MjEgUE07MjkwNQ=="/>
+        <attribute name="edited" value="T3duZXI7REVTS1RPUC1TR0o1UFZQOzIwMjAtMDktMjE7MDk6MDA6MjcgUE07MzszMDIx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="This program displays the age of a dog in dog years"/>
+            <comment text="In relation to human years"/>
+            <declare name="name" type="String" array="False" size=""/>
+            <declare name="age" type="Integer" array="False" size=""/>
+            <output expression="&quot;Type your dogs name&quot;" newline="True"/>
+            <input variable="name"/>
+            <output expression="&quot;Type your dogs age in human years:&quot;" newline="True"/>
+            <input variable="age"/>
+            <assign variable="Age" expression="age * 7"/>
+            <output expression="&quot;Your dogs age in dog years is: &quot; &amp;age" newline="True"/>
+        </body>
+    </function>
+    <function name="ProcessAge" type="None" variable="">
+        <parameters>
+            <parameter name="Age" type="Integer" array="False"/>
+        </parameters>
+        <body/>
+    </function>
+    <function name="Variableage" type="None" variable="">
+        <parameters>
+            <parameter name="age" type="Integer" array="False"/>
+        </parameters>
+        <body/>
+    </function>
+    <function name="Variablename" type="None" variable="">
+        <parameters>
+            <parameter name="name" type="String" array="False"/>
+        </parameters>
+        <body/>
+    </function>
+</flowgorithm>

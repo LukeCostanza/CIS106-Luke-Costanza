@@ -1,10 +1,10 @@
 def processAge(age):
     pass
 
-def variableage(age):
+def processage(age):
     pass
 
-def variablename(name):
+def processname(name):
     pass
 
 # Main

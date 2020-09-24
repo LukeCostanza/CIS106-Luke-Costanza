@@ -15,3 +15,7 @@ I learned Lots from this week's assignment. From figuring out that Python is cas
 ## Assignment 4
 
 Not too many new ideas or experiences during this week but the knowledge was still consumed and I did learn a thing or two. The first memorable thing that was implemented into my Activity 6.py file was the use of float instead of integer. This allowed the user to input a decimal number for the price of a paint gallon and use the real number for the calculations. Something else that I re-taught myself was the importance of reading the directions vigorously. As these assignments slowly increase in difficulty doing the correct steps is vital to creating an A+ assignment. This week's activity 6 in particular was difficult in organizing my code for the correct variables to calculate with their respective pair. Too often I checked my code and found many miscalculations and I would not be surprised if there were more if I'm being honest. Overall this was an informative week and look forward to corrections and insights in my work.
+
+## Assignment 5
+
+This week was an eventful week for learning a more challenging topic. I took advantage of the office hours provided by both our professor and other professors. The 15-minute video call was very very helpful and would 100% recommend it to anyone else looking for some extra help. I think I understand how the class works now and what is expected of me when turning in assignments and at what time. Overall excited for the next topic and cant wait to learn a little bit more.

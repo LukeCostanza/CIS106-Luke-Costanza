@@ -1,26 +1,33 @@
-def displayResults(name, dogAge):
-    print(name + " is " + str(dogAge) + " in dog years.")
+# This program displays the age of a dog in dog years in relation
+# to human years
 
-def processAge(age):
-    dogAge = age * 7
-    
-    return dogAge
 
-def getName():
+def display_results(name, dog_age):
+    print(name + " is " + str(dog_age) + " in dog years.")
+
+
+def process_age(age):
+    dog_age = age * 7
+    return dog_age
+
+
+def get_name():
     print("What is your dogs name?: ")
     name = input()
-    
     return name
 
-def getAge():
+
+def get_age():
     print("What is your dogs age?: ")
     age = int(input())
-    
     return age
 
-# Main
-# This program displays the age of a dog in dog years in relation to human years
-name = getName()
-age = getAge()
-dogAge = processAge(age)
-displayResults(name, dogAge)
+
+def main():
+    name = get_name()
+    age = get_age()
+    dog_age = process_age(age)
+    display_results(name, dog_age)
+
+
+main()

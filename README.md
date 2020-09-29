@@ -19,3 +19,7 @@ Not too many new ideas or experiences during this week but the knowledge was sti
 ## Assignment 5
 
 This week was an eventful week for learning a more challenging topic. I took advantage of the office hours provided by both our professor and other professors. The 15-minute video call was very very helpful and would 100% recommend it to anyone else looking for some extra help. I think I understand how the class works now and what is expected of me when turning in assignments and at what time. Overall excited for the next topic and cant wait to learn a little bit more.
+
+## Assignment 6
+
+After going through a rough week with assignment 5 I was able to resurrect myself and my grade by taking the time to seek help from my professor. I was provided with the info I needed to complete assignment 6 to the best of my ability. After some trial and error, I was able to get most of the program to work. I even sought some help from my sister again but these assignments are starting to get the best of her and at this point, she will be learning at the same speed I am. I hope that these new functions will stick with me as we move along to week 7.

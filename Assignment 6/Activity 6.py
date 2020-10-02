@@ -2,7 +2,7 @@
 
 
 def display_results(total_area, gallon, cost):
-    print(str("size of your room in square Ft is: ") + str(Total_area) + str(" Square Ft"))
+    print(str("size of your room in square Ft is: ") + str(total_area) + str(" Square Ft"))
     print(gallon)
     print(cost)
 
@@ -42,8 +42,8 @@ def get_square():
     return square
 
 
-def process_gallon(Total_area):
-    gallon = Total_area / square
+def process_gallon(total_area, square):
+    gallon = total_area / square
     return gallon
 
 
@@ -61,12 +61,13 @@ def main():
     length = get_length()
     width = get_width()
     height = get_height()
-    Total_area = process_area(length, height, width)
+    total_area = process_area(length, height, width)
     price = get_price()
     square = get_square()
-    gallon = process_gallon(Total_area)
+    gallon = process_gallon(total_area, square)
     Rounded_gallon = process_Rgallon(gallon)
     cost = process_cost(price, Rounded_gallon)
+    results = display_results(total_area, gallon, cost)
 
 
 main()

@@ -19,7 +19,7 @@ def get_rate():
     return rate
 
 
-def process_weekly(hours):
+def process_weekly(hours, rate):
     weekly = hours * rate
     return weekly
 
@@ -37,9 +37,10 @@ def process_annually(monthly):
 def main():
     hours = get_hours()
     rate = get_rate()
-    weekly = process_weekly(hours)
+    weekly = process_weekly(hours, rate)
     monthly = process_monthly(weekly)
     annually = process_annually(monthly)
+    results = display_results(weekly, monthly, annually)
 
 
 main()

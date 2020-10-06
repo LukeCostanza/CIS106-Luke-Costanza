@@ -23,3 +23,7 @@ This week was an eventful week for learning a more challenging topic. I took adv
 ## Assignment 6
 
 After going through a rough week with assignment 5 I was able to resurrect myself and my grade by taking the time to seek help from my professor. I was provided with the info I needed to complete assignment 6 to the best of my ability. After some trial and error, I was able to get most of the program to work. I even sought some help from my sister again but these assignments are starting to get the best of her and at this point, she will be learning at the same speed I am. I hope that these new functions will stick with me as we move along to week 7.
+
+## Assignment 7 
+
+So far its a little scarier then earlier assignments but definetly smoother. What i mean by that is the amount of time it takes to write old code that we already know is drasticaly quicker and makes more sense when an error pops up. I will go back to this paragraph when I have more thoughts on this weeks assignments. 

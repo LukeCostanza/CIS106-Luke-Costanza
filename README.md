@@ -26,4 +26,4 @@ After going through a rough week with assignment 5 I was able to resurrect mysel
 
 ## Assignment 7 
 
-So far it's a little scarier then earlier assignments but smoother. What I mean by that is the amount of time it takes to write old code that we already know is drastically quicker and makes more sense when an error pops up. I will go back to this paragraph when I have more thoughts on this week's assignments. 
+So far it's a little scarier then earlier assignments but smoother. What I mean by that is the amount of time it takes to write old code that we already know is drastically quicker and makes more sense when an error pops up. After a couple of days of procrastinating because of work and other homework, I was able to get help from Hafsa. She went through code using similar directions and using functions/ if, else statements. This help was very nice and very helpful as I was also contacting her at the end of her session time. The code them came together and was finished!

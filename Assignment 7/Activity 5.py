@@ -1,50 +1,36 @@
-# this will display the results as human years for a dogs age
+# This program displays the age of a dog in dog years in relation
+# to human years
 
 
-def display_results (dog_years):
-  print (str("your dogs age in dog years is ") +str (dog_years))
+def display_results(name, dog_age):
+    print(name + " is " + str(dog_age) + " in dog years.")
 
 
-def get_dog_years():
-  print("What is the age of your dog in human years?")
-  dog_years = int(input())
-  return dog_years
+def process_age(age):
+    if age <= 2:
+        dog_age = age * 10.5
+    else:
+        dog_age = (age - 2) * 4 + 21
+    return dog_age
 
 
 def get_name():
-  print("What is yours dogs name?:")
-  name = input()
-  return name
+    print("What is your dogs name?: ")
+    name = input()
+    return name
 
 
-
-def get_choice():
-  print ("Entering 1-2 will display yours dogs age as either 10.5 or 21, but entering a number larger than 2 will consider the differnce and display anew calculated answer.")
-  choice = input()
-  return choice
-
-
-def calculate_dog_years(dog_years): 
-  dog_years = dog_years - 2
-  dog_years = (dog_years * 2) + 21
-  return dog_years  
+def get_age():
+    print("What is your dogs age?: ")
+    age = int(input())
+    return age
 
 
-# Main
 def main():
-  dog_years = get_dog_years()
-  name = get_name()
-  choice = get_choice()
-  dog_years = calculate_dog_years(dog_years)
-  if choice == 1:
-    print("your dogs age in dog years is 10.5 years!")
-  elif choice == 2:
-    print("your dogs age in dog years in 21 years!")
-  elif dog_years > 2:
-    dog_years = calculate_dog_years(dog_years)
-  
-  display_results (dog_years) 
-  
+    name = get_name()
+    age = get_age()
+    dog_age = process_age(age)
+    display_results(name, dog_age)
 
 
 main()

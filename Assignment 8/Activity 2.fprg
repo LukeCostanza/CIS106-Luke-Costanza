@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Owner"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-11 10:06:11 PM"/>
+        <attribute name="created" value="T3duZXI7REVTS1RPUC1TR0o1UFZQOzIwMjAtMTAtMTE7MDk6Mzg6MzkgUE07MjkxNg=="/>
+        <attribute name="edited" value="T3duZXI7REVTS1RPUC1TR0o1UFZQOzIwMjAtMTAtMTE7MTA6MDY6MTEgUE07MTszMDAx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="scores" type="Integer" array="False" size=""/>
+            <declare name="total" type="Integer" array="False" size=""/>
+            <declare name="stop" type="Integer" array="False" size=""/>
+            <declare name="final" type="Integer" array="False" size=""/>
+            <assign variable="scores" expression="GetScores(&quot;grades&quot;)"/>
+            <assign variable="total" expression="ProcessTotal(scores, final)"/>
+        </body>
+    </function>
+    <function name="GetScores" type="Integer" variable="scores">
+        <parameters>
+            <parameter name="grades" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="scores" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter amount of &quot; &amp; grades &amp; &quot; you would like to enter:&quot;" newline="True"/>
+            <input variable="scores"/>
+        </body>
+    </function>
+    <function name="ProcessTotal" type="Integer" variable="total">
+        <parameters>
+            <parameter name="scores" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <while expression="total = scores">
+                <output expression="total" newline="True"/>
+                <assign variable="total" expression="total + scores"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

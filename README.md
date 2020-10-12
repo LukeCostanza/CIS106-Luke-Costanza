@@ -26,4 +26,9 @@ After going through a rough week with assignment 5 I was able to resurrect mysel
 
 ## Assignment 7 
 
-So far it's a little scarier then earlier assignments but smoother. What I mean by that is the amount of time it takes to write old code that we already know is drastically quicker and makes more sense when an error pops up. After a couple of days of procrastinating because of work and other homework, I was able to get help from Hafsa. She went through code using similar directions and using functions/ if, else statements. This help was very nice and very helpful as I was also contacting her at the end of her session time. The code them came together and was finished!
+So far it's a little scarier then earlier assignments but smoother. What I mean by that is the amount of time it takes to write old code that we already know is drastically quicker and makes more sense when an error pops up. After a couple of days of procrastinating because of work and other homework, I was able to get help from Hafsa. She went through code using similar directions and using functions/ if, else statements. This help was very nice and very helpful as I was also contacting her at the end of her session time. The codethem came together and was finished!
+
+
+## Assignment 8 
+
+This week will be extra challenging for me because I am on vacation with minimal connection to the internet. I believe That my Activity 1 is to the standards of assignment 8 but would like feedback either way. I also understand that my Activity.2 is struggling and would like feedback on that too. Other than that my main worries are when I should use either While, for, and do loops. They are quite confusing and being a new subject some light explanation would work wonders. I will be coming back to this paragraph before Thursday. 

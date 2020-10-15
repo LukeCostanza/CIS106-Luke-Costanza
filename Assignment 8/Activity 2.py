@@ -1,25 +1,46 @@
-# this application will determin the users average grade
+# This program will determin the final grade of the user
 
 
-def getScores(grades):
-    print("Enter amount of " + grades + " you would like to enter:")
-    scores = int(input())
-
-    return scores
-
-
-def processTotal(scores):
-    while total == scores:
-        print(total)
-        total = total + scores
-
-    return total
+def get_stop():
+    print("Please combine all final grades and enter number her -->")
+    stop = int(input())
+    return stop
 
 
-# Main
-def main()
-scores = getScores("grades")
-total = processTotal(scores, final)
+def get_start():
+    print("Please enter the number zero") 
+    start = int(input()) 
+    return start
 
 
-main()
+def get_increment():
+    print("Enter your first grade:")
+    increment = int(input())
+    return increment 
+
+
+def get_increment2():
+    print("Enter your second grade:")
+    increment2 = int(input())
+    return increment2  
+
+
+def while_loop(start, stop, increment, increment2):
+    print("While loop counting from " + str(start) + " to " + 
+        str(stop) + " by " + str(increment) + " and " + str(increment2) + ":")
+    count = start
+    while count <= stop:
+        print(count)
+        count += increment
+        count += increment2
+
+
+def main():
+    stop = get_stop()
+    start = get_start()
+    increment = get_increment()
+    increment2 = get_increment2()
+    while_loop(start, stop, increment, increment2)
+
+
+main()  

@@ -1,28 +1,36 @@
-# This prgram will return differnt multiples of the users input/parameters
+# this program will determin the multiples of a given ValueError
 
 
-def getValue(name):
-    print("Enter " + name + " value: ")
+def get_value():
+    print("enter a value to be multiplied")
     value = int(input())
-
     return value
 
 
-def doLoop(start, stop, increment):
-    print("Do loop counting from " + str(start) + " to " + str(stop) + " by " + str(increment) + ".")
-    count = start
-    while True:    #This simulates a Do Loop(I will be fixing this)
-        print(count)
-        count = count * increment
-        if not(count <= stop): break   #Exit loop
+def get_expression():
+    print("Enter an expression")
+    expression = int(input())
+    return expression
+  
 
 
-# Main
+count = 1
+
+
+def while_loop(value, count, expression, total): 
+    while count <= expression: 
+      total = value * count
+      print(value, '*',count, '=' ,total)
+      count = count + 1
+
+
 def main():
-    start = getValue("starting")
-    stop = getValue("ending")
-    increment = getValue("increment")
-    doLoop(start, stop, increment)
+    value = get_value()
+    expression = get_expression()
+    count = 1
+    total = value * count
+    while_loop(value, count, expression, total)
+    count = count + 1
 
 
-main()
+main()  

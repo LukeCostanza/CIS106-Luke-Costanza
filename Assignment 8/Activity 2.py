@@ -2,31 +2,33 @@
 
 
 def get_value():
-    print("How many scores would you like to enter?")
+    print("How many grades would you like to enter?")
     value = int(input())
     return value
 
 
-def while_loop(value, sum):
+def while_loop(value):
     count = 1
     sum = 0
     while count <= value:
-      print("Enter score")
+      print("Enter grade")
       score = int(input())
       sum = sum + score
       count = count + 1
+    return sum
 
       
-def process_average(value):      
+def process_average(sum, value):     
     average = sum / value
     print("Your average grade is: " + str(average))
-    return average
+    
+    
 
 
 
 def main():
   value = get_value()
-  while_loop(value, sum)
-  average = process_average(value)
+  sum = while_loop(value)
+  process_average(sum, value)
  
 main()

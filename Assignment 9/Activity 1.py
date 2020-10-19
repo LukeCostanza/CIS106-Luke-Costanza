@@ -1,28 +1,30 @@
-# This prgram will return differnt multiples of the users input/parameters
+# This program is determining the avergae grade for the user.
 
 
-def getValue(name):
-    print("Enter " + name + " value: ")
-    value = int(input())
-
-    return value
+print("When you are finished entering all grades please enter a negative value using '-' symbol.")
 
 
-def doLoop(start, stop, increment):
-    print("Do loop counting from " + str(start) + " to " + str(stop) + " by " + str(increment) + ".")
-    count = start
-    while True:    #This simulates a Do Loop
-        print(count)
-        count = count * increment
-        if not(count <= stop): break   #Exit loop
+def while_loop():
+    count = 0
+    sum = 0
+    while True:
+        print("Enter grade:")
+        score = int(input())
+        if score < 0:
+            break
+        sum = sum + score
+        count = count + 1
+    process_average(sum, count)
+    return sum
 
 
-# Main
+def process_average(sum, count):
+    average = sum / count
+    print("Your average grade is: " + str(average))
+
+
 def main():
-    start = getValue("starting")
-    stop = getValue("ending")
-    increment = getValue("increment")
-    doLoop(start, stop, increment)
+    while_loop()
 
 
 main()

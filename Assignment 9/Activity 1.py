@@ -1,7 +1,7 @@
 # this program will determin the multiples of a given ValueError
 
 
-def get_value():# add do loop to make sure value is positive.
+def get_value():
     print("enter a value to be multiplied")
     value = int(input())
     while True:

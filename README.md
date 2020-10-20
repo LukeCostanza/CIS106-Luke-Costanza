@@ -32,3 +32,7 @@ So far it's a little scarier then earlier assignments but smoother. What I mean 
 ## Assignment 8 
 
 This week will be extra challenging for me because I am on vacation with minimal connection to the internet. I believe That my Activity 1 is to the standards of assignment 8 but would like feedback either way. I also understand that my Activity.2 is struggling and would like feedback on that too. Other than that my main worries are when I should use either While, for, and do loops. They are quite confusing and being a new subject some light explanation would work wonders. I will be coming back to this paragraph before Thursday. 
+
+## Assignment 9 
+
+After a fairly stressful week, having homework assignments pile up on top of being on vacation I almost went crazy. Though in that week of always feeling like I was losing my breath, I was able to catch a breeze of fresh air and get myself back on my feet. After seeking help from many resources including you I was able to understand loops and how to incorporate them into functions. Now, this week's assignments of "Do while loops" is fairly simple and is much more clear to understand even if my functions don't completely work. The rest of this week will include the appropriate amounts of discussion posts and multiple submissions of my code if needed. 

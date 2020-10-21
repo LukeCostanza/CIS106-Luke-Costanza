@@ -1,26 +1,28 @@
 # this program will determin the multiples of a given ValueError
-
+  # cites used: https://hplgit.github.io/primer.html/doc/pub/input/._input-readable007.html
 
 def get_value():
-    print("enter a value to be multiplied")
-    value = int(input())
     while True:
-      return value
+      print("enter a value to be multiplied")
+      value = int(input())
+      if value > 0:
+        return value
       if not (value < 0):
-        print("Enter a valid value > 0")
         break
+      Exception
+      print("Enter a valid value > 0")  
+        
     
-
-
 def get_expression():
-    print("Enter an expression")
-    expression = int(input())
     while True:
-      return expression
+      print("Enter an expression")
+      expression = int(input())
+      if expression > 0:
+        return expression
       if not (expression < 0):
-        print("Enter a valid expression > 0")
         break 
-    return expression
+      Exception
+      print("Enter a valid expression > 0")  
 
 
 def display_expression(value, count, total):

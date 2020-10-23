@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Owner"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-22 08:00:19 PM"/>
+        <attribute name="created" value="T3duZXI7REVTS1RPUC1TR0o1UFZQOzIwMjAtMTAtMjI7MDc6MTI6MDcgUE07MjkwMw=="/>
+        <attribute name="edited" value="T3duZXI7REVTS1RPUC1TR0o1UFZQOzIwMjAtMTAtMjI7MDg6MDA6MTkgUE07MTszMDEy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="expression" type="Integer" array="False" size=""/>
+            <declare name="value" type="Integer" array="False" size=""/>
+            <declare name="count" type="Integer" array="False" size=""/>
+            <declare name="total" type="Integer" array="False" size=""/>
+            <assign variable="value" expression="GetValue()"/>
+            <assign variable="expression" expression="GetExpression()"/>
+            <assign variable="count" expression="1"/>
+            <assign variable="total" expression="value * count"/>
+            <call expression="DisplayExpressions(value, expression, count, total)"/>
+        </body>
+    </function>
+    <function name="DisplayExpression" type="None" variable="">
+        <parameters>
+            <parameter name="value" type="Integer" array="False"/>
+            <parameter name="count" type="Integer" array="False"/>
+            <parameter name="total" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <output expression="total" newline="True"/>
+        </body>
+    </function>
+    <function name="DisplayExpressions" type="None" variable="">
+        <parameters>
+            <parameter name="value" type="Integer" array="False"/>
+            <parameter name="expression" type="Integer" array="False"/>
+            <parameter name="count" type="Integer" array="False"/>
+            <parameter name="total" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <assign variable="count" expression="1"/>
+            <do expression="count &lt;= expression">
+                <assign variable="total" expression="value * count"/>
+                <call expression="DisplayExpression(value, count, total)"/>
+                <assign variable="count" expression="count + 1"/>
+            </do>
+        </body>
+    </function>
+    <function name="GetExpression" type="Integer" variable="expression">
+        <parameters/>
+        <body>
+            <declare name="expression" type="Integer" array="False" size=""/>
+            <do expression="expression &lt; 0">
+                <output expression="(&quot;Enter an expression: &quot;)" newline="True"/>
+                <input variable="expression"/>
+                <if expression="expression &lt; 0">
+                    <then>
+                        <output expression="(&quot;Enter a valid expression &gt; 0&quot;)" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </do>
+        </body>
+    </function>
+    <function name="GetValue" type="Integer" variable="value">
+        <parameters/>
+        <body>
+            <declare name="value" type="Integer" array="False" size=""/>
+            <do expression="value &lt; 0">
+                <output expression="&quot;Enter a value to be multiplied: &quot;" newline="True"/>
+                <input variable="value"/>
+                <if expression="value &lt; 0">
+                    <then>
+                        <output expression="(&quot;Enter a valid value &gt; 0&quot;)" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

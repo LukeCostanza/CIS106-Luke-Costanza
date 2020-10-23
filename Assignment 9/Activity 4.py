@@ -26,7 +26,7 @@ def get_expression():
 
 
 def display_expression(value, count, total):
-    print(value, '*', count, '=', total)
+    print(total)
 
 
 def display_expressions(value, expression):

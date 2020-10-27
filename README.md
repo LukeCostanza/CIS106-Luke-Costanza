@@ -36,3 +36,7 @@ This week will be extra challenging for me because I am on vacation with minimal
 ## Assignment 9 
 
 After a fairly stressful week, having homework assignments pile up on top of being on vacation I almost went crazy. Though in that week of always feeling like I was losing my breath, I was able to catch a breeze of fresh air and get myself back on my feet. After seeking help from many resources including you I was able to understand loops and how to incorporate them into functions. Now, this week's assignments of "Do while loops" is fairly simple and is much more clear to understand even if my functions don't completely work. I am proud ow to say that I will most likely be getting full credit on assignment 9 and participation for assignment 9 this will be the first time in his class and it is what I need to keep improving my grade.
+
+## Assignment 10
+
+Just like last week I gave myself enough time to evaluate the homework assigned and scheduled a meeting for some extra assistance. The for loop and nested loop assignments I completed gave me a nice broad understanding of loops and lots of the recent concepts were brought into one. I am looking forward to seeing how all these concepts truly collide when we start to learn about arrays. Also, I am aware that my Activity 2.fprg is not finished and needs work as I thought it would. This will be updated by Thursday.  

@@ -1,0 +1,36 @@
+def getScore():
+    score = 0
+    print("Enter grade")
+    while score <= 0:
+        score = int(input())
+        if score > 0:
+            pass
+        else:
+            print("Enter a valid value > 0")
+    
+    return score
+
+def getValue():
+    print("How many grades would you like to enter?")
+    value = int(input())
+    
+    return value
+
+def processAverage(sum, value):
+    average = float(sum) / value
+    print("Your average grade is: " + str(average) + ".")
+
+def whileLoop(value):
+    count = 1
+    sum = 0
+    while count >= value:
+        score = getScore()
+        sum = sum + score
+        count = count + 1
+    
+    return sum
+
+# Main
+value = getValue()
+sum = whileLoop(value)
+processAverage(sum, value)

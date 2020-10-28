@@ -1,36 +1,74 @@
-def getScore():
-    score = 0
-    print("Enter grade")
-    while score <= 0:
-        score = int(input())
-        if score > 0:
-            pass
-        else:
-            print("Enter a valid value > 0")
-    
-    return score
-
-def getValue():
-    print("How many grades would you like to enter?")
-    value = int(input())
-    
-    return value
-
-def processAverage(sum, value):
-    average = float(sum) / value
-    print("Your average grade is: " + str(average) + ".")
-
-def whileLoop(value):
-    count = 1
-    sum = 0
-    while count >= value:
-        score = getScore()
-        sum = sum + score
-        count = count + 1
-    
-    return sum
-
-# Main
-value = getValue()
-sum = whileLoop(value)
-processAverage(sum, value)
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Owner"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-27 07:27:41 PM"/>
+        <attribute name="created" value="T3duZXI7REVTS1RPUC1TR0o1UFZQOzIwMjAtMTAtMjY7MDk6MTY6MTYgUE07MjkxMw=="/>
+        <attribute name="edited" value="T3duZXI7REVTS1RPUC1TR0o1UFZQOzIwMjAtMTAtMjc7MDc6Mjc6NDEgUE07MTszMDIw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="value" type="Integer" array="False" size=""/>
+            <declare name="sum" type="Integer" array="False" size=""/>
+            <assign variable="value" expression="GetValue()"/>
+            <assign variable="sum" expression="WhileLoop(value)"/>
+            <call expression="ProcessAverage(sum, value)"/>
+        </body>
+    </function>
+    <function name="GetScore" type="Integer" variable="score">
+        <parameters/>
+        <body>
+            <declare name="score" type="Integer" array="False" size=""/>
+            <assign variable="score" expression="0"/>
+            <output expression="&quot;Enter grade&quot;" newline="True"/>
+            <while expression="score &lt;= 0">
+                <input variable="score"/>
+                <if expression="score &gt;= 0">
+                    <then/>
+                    <else>
+                        <output expression="&quot;Enter a valid value &gt; 0&quot;" newline="True"/>
+                    </else>
+                </if>
+            </while>
+        </body>
+    </function>
+    <function name="GetValue" type="Integer" variable="value">
+        <parameters/>
+        <body>
+            <declare name="value" type="Integer" array="False" size=""/>
+            <output expression="&quot;How many grades would you like to enter?&quot;" newline="True"/>
+            <input variable="value"/>
+        </body>
+    </function>
+    <function name="ProcessAverage" type="None" variable="">
+        <parameters>
+            <parameter name="sum" type="Integer" array="False"/>
+            <parameter name="value" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="average" type="Integer" array="False" size=""/>
+            <assign variable="average" expression="sum / value"/>
+            <output expression="&quot;Your average grade is: &quot; &amp; average &amp; &quot;.&quot;" newline="True"/>
+        </body>
+    </function>
+    <function name="WhileLoop" type="Integer" variable="sum">
+        <parameters>
+            <parameter name="value" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="sum" type="Integer" array="False" size=""/>
+            <declare name="count" type="Integer" array="False" size=""/>
+            <declare name="score" type="Integer" array="False" size=""/>
+            <assign variable="count" expression="1"/>
+            <assign variable="sum" expression="0"/>
+            <while expression="count &lt;= value">
+                <assign variable="score" expression="GetScore()"/>
+                <assign variable="sum" expression="sum + score"/>
+                <assign variable="count" expression="count + 1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

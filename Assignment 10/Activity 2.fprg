@@ -4,9 +4,9 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="Owner"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2020-10-27 07:27:41 PM"/>
+        <attribute name="saved" value="2020-10-29 09:56:57 PM"/>
         <attribute name="created" value="T3duZXI7REVTS1RPUC1TR0o1UFZQOzIwMjAtMTAtMjY7MDk6MTY6MTYgUE07MjkxMw=="/>
-        <attribute name="edited" value="T3duZXI7REVTS1RPUC1TR0o1UFZQOzIwMjAtMTAtMjc7MDc6Mjc6NDEgUE07MTszMDIw"/>
+        <attribute name="edited" value="T3duZXI7REVTS1RPUC1TR0o1UFZQOzIwMjAtMTAtMjk7MDk6NTY6NTcgUE07MjszMDM0"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -24,7 +24,7 @@
             <declare name="score" type="Integer" array="False" size=""/>
             <assign variable="score" expression="0"/>
             <output expression="&quot;Enter grade&quot;" newline="True"/>
-            <while expression="score &lt;= 0">
+            <while expression="score &lt;= 0 or score == 0">
                 <input variable="score"/>
                 <if expression="score &gt;= 0">
                     <then/>

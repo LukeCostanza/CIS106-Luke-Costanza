@@ -1,4 +1,4 @@
-# This program is determining the avergae grade for the user.
+ This program is determining the avergae grade for the user.
 
 
 def get_value():
@@ -9,9 +9,9 @@ def get_value():
 def get_score():
     score = 0
     print("Enter grade")
-    while score <= 0:
+    while score <= 0 or score == 0:
         score = int(input())
-        if score > 0:   
+        if score >= 0:   
             return score
         if (score < 0):
             print("Enter a valid value > 0")  

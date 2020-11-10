@@ -40,3 +40,8 @@ After a fairly stressful week, having homework assignments pile up on top of bei
 ## Assignment 10
 
 Just like last week I gave myself enough time to evaluate the homework assigned and scheduled a meeting for some extra assistance. The for loop and nested loop assignments I completed gave me a nice broad understanding of loops and lots of the recent concepts were brought into one. I am looking forward to seeing how all these concepts truly collide when we start to learn about arrays. Also, I am aware that my Activity 2.fprg is not finished and needs work as I thought it would. After the feedback received on Tuesday, I was able to look back through my flowgorithm flow chart and notice the mistake. I simply placed a greater than symbol in place of a less than symbol.  
+
+
+## Assignment 11
+
+This week was not one for me. I was backed up on more stuff in my life than ever before thus the late turn in for this assignment. After learning this for the first time just yesterday and coding this today with some help I have finally completed it. The reason for all of the technical words is still somewhat confusing to me, But other than that arrays are somewhat simple(I might be lying to myself). I hope that assignment 12 is much smoother. 

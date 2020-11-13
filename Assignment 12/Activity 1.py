@@ -7,17 +7,18 @@ def get_value():
     return value
 
 
-def build_f(size):
-    f = []
+def build_array(size):
+    array = []
     for index in range(0, size):
         print("Enter grade")
         score = int(input())
-        f.append(score)
-    return f
+        array.append(score)
+    return array
 
 
 def get_high(size, arr):
     high = 0
+    high = numpy.max(arr)
     for index in range(0, size):
         if arr[index] > high:
             high = arr[index]
@@ -43,10 +44,10 @@ def get_low(size, arr):
 
 def main():
     value = get_value()
-    f = build_f(value)
-    get_high(value, f)
-    get_average(value, f)
-    get_low(value, f)
+    array = build_array(value)
+    get_high(value, array)
+    get_average(value, array)
+    get_low(value, array)
 
 
 main()

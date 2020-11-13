@@ -1,25 +1,26 @@
 #This program is determining the avergae grade for the user.
 
 
-def get_value():
-    print("How many grades would you like to enter?")
-    value = int(input())
-    return value
-
-
-def build_array(size):
+def get_grades():
     array = []
-    for index in range(0, size):
-        print("Enter grade")
+    size = 0
+    score = 0
+    while score >= 0:
+        print("Enter a score value greater then zero:")
         score = int(input())
-        array.append(score)
-    return array
+        if score >= 0:   
+            array.append(score)
+            size = size + 1
+    print(size)
+    get_high(size, array)
+    get_average(size, array)
+    get_low(size, array)
+
 
 
 def get_high(size, arr):
-    high = 0
-    high = numpy.max(arr)
-    for index in range(0, size):
+    high = arr[0]
+    for index in range(1, size):
         if arr[index] > high:
             high = arr[index]
     print("High score: " +str(high))
@@ -35,19 +36,14 @@ def get_average(size, arr):
 
 
 def get_low(size, arr):
-    low = 999
-    for index in range(0, size):
+    low = arr[0]
+    for index in range(1, size):
         if arr[index] < low:
             low = arr[index]
     print("Low score: " +str(low))     
    
 
 def main():
-    value = get_value()
-    array = build_array(value)
-    get_high(value, array)
-    get_average(value, array)
-    get_low(value, array)
-
+    get_grades()
 
 main()

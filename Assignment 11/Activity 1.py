@@ -8,18 +8,17 @@ def get_value():
 
 
 def build_array(size):
-    array = []
+    array = [None] * size
     for index in range(0, size):
         print("Enter grade")
         score = int(input())
-        array.append(score)
+        array[index] = score
     return array
 
 
 def get_high(size, arr):
-    high = 0
-    high = numpy.max(arr)
-    for index in range(0, size):
+    high = arr[0]
+    for index in range(1, size):
         if arr[index] > high:
             high = arr[index]
     print("High score: " +str(high))
@@ -35,8 +34,8 @@ def get_average(size, arr):
 
 
 def get_low(size, arr):
-    low = 999
-    for index in range(0, size):
+    low = arr[0]
+    for index in range(1, size):
         if arr[index] < low:
             low = arr[index]
     print("Low score: " +str(low))     

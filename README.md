@@ -45,3 +45,8 @@ Just like last week I gave myself enough time to evaluate the homework assigned 
 ## Assignment 11
 
 This week was not one for me. I was backed up on more stuff in my life than ever before thus the late turn in for this assignment. After learning this for the first time just yesterday and coding this today with some help I have finally completed it. The reason for all of the technical words is still somewhat confusing to me, But other than that arrays are somewhat simple(I might be lying to myself). I hope that assignment 12 is much smoother. 
+
+
+## Assignment 12
+After one week of working very hard on other assignments and falling behind, I finally came to my senses to work on the array codes from sessions 11 and 12. After going through session 11 and seeing how arrays work session 12 was much easier to understand. I found that arrays are very useful when creating lists or getting data and storing it from a user. Compared to a while loop where it will take the data then do something with it directly after. Now that I am back on track I hope that I can pay more attention to detail and to this class in general!
+

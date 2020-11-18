@@ -48,5 +48,9 @@ This week was not one for me. I was backed up on more stuff in my life than ever
 
 
 ## Assignment 12
+
 After one week of working very hard on other assignments and falling behind, I finally came to my senses to work on the array codes from sessions 11 and 12. After going through session 11 and seeing how arrays work session 12 was much easier to understand. I found that arrays are very useful when creating lists or getting data and storing it from a user. Compared to a while loop where it will take the data then do something with it directly after. Now that I am back on track I hope that I can pay more attention to detail and to this class in general!
 
+## Assignment 13
+
+I am enjoying strings so far. The idea that we can control what the user inputs is very interesting and opens up a whole new world of coding to experience. I feel that this is also going to be used a lot when there is lots of data to work with when I am using python in my career. 

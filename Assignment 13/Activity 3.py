@@ -11,7 +11,6 @@ def get_string():
             data = data.strip()
             print(data)
             string = string[index + 1:]
-            print(string)
         else:
             string = string.strip()
             print(string)

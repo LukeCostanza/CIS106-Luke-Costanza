@@ -53,7 +53,8 @@ def get_average(arr):
     for index in range(0, size):
         sum = sum + int(arr[index])
     average = sum / size
-    print("Average score: " + str(average))
+    rounded_average = round(average, 2)
+    print("Average score: " +str(rounded_average))
 
 
 def get_low(arr):

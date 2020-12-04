@@ -54,3 +54,7 @@ After one week of working very hard on other assignments and falling behind, I f
 ## Assignment 13
 
 I am enjoying strings so far. The idea that we can control what the user inputs is very interesting and opens up a whole new world of coding to experience. I feel that this is also going to be used a lot when there is lots of data to work with when I am using Python in my career. 
+
+## Assignment 14
+
+Learning about files made this whole class feel more realistic for coding as a career. It brought in aspects of everyday life allowing us to see how our laptops or desktops work when we use files. I'm also learning about the importance of naming files correctly in my GIS class. You must name these locations in your files so that when you decide to save data to that location it works correctly and efficiently. 

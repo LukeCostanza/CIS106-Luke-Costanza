@@ -2,33 +2,18 @@
 
 
 def read_file(scores):
-    name_arr = []
     score_arr = []
+    first = 'y'
     file = open(scores, "r")
     for line in file:
         line = line.strip()
-        name = get_name(line)
-        score = get_score(line)
-        name_arr.append(name)
-        score_arr.append(score)
-    high = get_high(score_arr)
-    print("High score")
-    print(name_arr[high])
-    print (str(score_arr[high]))
-    average = get_average(score_arr)
-    print (str(average))
-    low = get_low(score_arr)
-    print("Low score")
-    print(name_arr[low])
-    print (str(score_arr[low]))
+        if first == 'y':
+            first = 'n'
+        else:
+            scores = get_score(line)
+            score_arr.append(scores)
     file.close()
-    print("")
-
-
-def get_name(line):
-    index = line.find(",")
-    name = line[0: index]
-    return name
+    return score_arr
 
 
 def get_score(line):
@@ -44,7 +29,7 @@ def get_high(arr):
         if int(arr[index]) > high:
             high = int(arr[index])
             high_ind = index
-    return high_ind
+    print("High score: " +str(arr[high_ind]))
 
 
 def get_average(arr):
@@ -64,12 +49,22 @@ def get_low(arr):
         if int(arr[index]) < low:
             low = int(arr[index])
             low_ind = index
-    return low_ind
+    print("Low score: " +str(arr[low_ind]))
+
+
+def print_scores(arr):
+    size = len(arr)
+    for index in range(0, size):
+        print(arr[index])
 
 
 def main():
     scores = "scores.txt"
-    read_file(scores)
+    score_arr = read_file(scores)
+    print_scores(score_arr)
+    get_high(score_arr)
+    get_average(score_arr)
+    get_low(score_arr)
 
 
 main()

@@ -1,3 +1,7 @@
+#This Program will print out the required data provided by a file and process given variables.
+    #https://stackabuse.com/reading-and-writing-xml-files-in-python/
+    
+    
 from xml.dom import minidom
 
 

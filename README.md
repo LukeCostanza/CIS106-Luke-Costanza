@@ -58,3 +58,7 @@ I am enjoying strings so far. The idea that we can control what the user inputs 
 ## Assignment 14
 
 Learning about files made this whole class feel more realistic for coding as a career. It brought in aspects of everyday life allowing us to see how our laptops or desktops work when we use files. I'm also learning about the importance of naming files correctly in my GIS class. You must name these locations in your files so that when you decide to save data to that location it works correctly and efficiently. 
+
+## Final Project
+
+After a little hiccup at the beginning where I simply could not get the file to run because I was missing a single line, The process started to run smoother. I am having a hard time trying to figure out why every single part of the file is printing. Other than that little issue I still have some steps to finish but I am closer than I was.

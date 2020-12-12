@@ -61,4 +61,4 @@ Learning about files made this whole class feel more realistic for coding as a c
 
 ## Final Project
 
-After a little hiccup at the beginning where I simply could not get the file to run because I was missing a single line, The process started to run smoother. I am having a hard time trying to figure out why every single part of the file is printing. Other than that little issue I still have some steps to finish but I am closer than I was.
+After a little hiccup at the beginning where I simply could not get the file to run because I was missing a single line, The process started to run smoother. I am having a hard time trying to figure out why every single part of the file is printing. Other than that little issue I still have some steps to finish but I am closer than I was. I believe I have finished the project and can move onto studying for the final exam. This project proved to be very challenging as it took me multiple days to work through the code.

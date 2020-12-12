@@ -1,68 +1,62 @@
-# This Program will print out the required data provided by a file and process given variables.
-# https://pymotw.com/3/xml.etree.ElementTree/parse.html
-
-from xml.etree import ElementTree
-
-
-#with open('plants.xml', 'rt') as f:
-tree = ElementTree.parse("plants.xml")
+##This Program processes values form file plant_catalog.xml and displays adequate results.
+##https://pymotw.com/3/xml.etree.ElementTree/parse.html
+##https://www.askpython.com/python/string/trim-a-string-in-python
 
 
-def get_common():
-    common_arr = []
+def get_file():
+    from xml.etree import ElementTree
+    file = ElementTree.parse("plant_catalog.xml")
+    return file
+
+
+def get_array(tree, type):
+    my_array = []
     for x in tree.findall('PLANT'):
-        common = x.find('COMMON').text
-        common_arr.append(common)
-    return common_arr
+        try:
+            value = x.find(type).text
+            my_array.append(value)
+        except ValueError:
+            my_array.append(" ")
+    return my_array
 
 
-def get_botanical():
-    botanical_arr = []
-    for x in tree.findall('PLANT'):
-        botanical = x.find('BOTANICAL').text
-        botanical_arr.append(botanical)
-    return botanical_arr
+def print_file(array1, array2, array3, array4, array5):
+    size = len(array1)
+    for i in range(0, size):
+        print (array1[i], "(", array2[i], ") -", array3[i], "-", array4[i], "-", array5[i])
 
 
-def get_zone():
-    zone_arr = []
-    for x in tree.findall('PLANT'):
-        zone = x.find('ZONE').text
-        zone_arr.append(zone)
-    return zone_arr
-
-
-def get_light():
-    light_arr = []
-    for x in tree.findall('PLANT'):
-        light = x.find('LIGHT').text
-        light_arr.append(light)
-    return light_arr
-
-
-def get_price():
-    price_arr = []
-    for x in tree.findall('PLANT'):
-        price = x.find('PRICE').text
-        price_arr.append(price)
-    return price_arr
-
-
-#for node in tree.iter():
-    #print(node.tag)
+def print_average(array):
+    sum = 0
+    count = 0
+    size = len(array)
+    for i in range(0, size):
+        try:
+            index = array[i].find("$")
+            val_alpha = (array[i])
+            value = (val_alpha[index + 1:])
+            value = value.strip()
+            sum = sum + float(value)
+            count = count + 1
+        except ValueError:
+            pass
+    if count != 0:
+        average = sum / count
+        rounded_average = round(average, 2)
+    else:
+        average = 0
+    print()
+    print ((size), "items - $", (rounded_average), "average price")
 
 
 def main():
-    common_arr = get_common()
-    botanical_arr = get_botanical()
-    zone_arr = get_zone()
-    light_arr = get_light()
-    price_arr = get_price()
-    print (common_arr[8])
-    print (botanical_arr[8])
-    print (zone_arr[8])
-    print (light_arr[8])
-    print (price_arr[8])
-
+    tree = get_file()
+    common_array = get_array(tree, 'COMMON')
+    botanical_array = get_array(tree, 'BOTANICAL')
+    zone_array = get_array(tree, 'ZONE')
+    light_array = get_array(tree, 'LIGHT')
+    price_array = get_array(tree, 'PRICE')
+    print_file(common_array, botanical_array, zone_array, light_array, price_array)
+    print_average(price_array)
 
 main()

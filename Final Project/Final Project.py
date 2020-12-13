@@ -5,7 +5,12 @@
 
 def get_file():
     from xml.etree import ElementTree
-    file = ElementTree.parse("plant_catalog.xml")
+    try:
+        file = ElementTree.parse("plant_catalog.xml")
+    except IOError:
+        print ("File not found!")
+    except ElementTree.ParseError:
+        print ("No elements found!")
     return file
 
 
@@ -24,6 +29,7 @@ def print_file(array1, array2, array3, array4, array5):
     size = len(array1)
     for i in range(0, size):
         print (array1[i], "(", array2[i], ") -", array3[i], "-", array4[i], "-", array5[i])
+#Prints each required variable from the file.
 
 
 def print_average(array):
@@ -43,10 +49,12 @@ def print_average(array):
     if count != 0:
         average = sum / count
         rounded_average = round(average, 2)
+        #To clean up the final answer.
     else:
-        average = 0
+        rounded_average = 0
     print()
     print ((size), "items - $", (rounded_average), "average price")
+#Extra print statement to provide a space between the two sections.
 
 
 def main():
